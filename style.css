@@ -82,6 +82,7 @@ section#nav-mm {
 	top: 0;
 	left: 0;
 	text-align: center;
+	z-index: 100;
 }
 	#nav-button {
 		position: absolute;
@@ -125,7 +126,7 @@ section#nav-mm {
 	#menu-wrapper {
 		width: 100%;
 		height: 100%;
-		display: block;
+		display: none;
 		background-color: #fff;
 	}
 		#menu-logo {
@@ -150,5 +151,76 @@ section#nav-mm {
 					font-size: .8em;
 					margin-top: 4em;
 					color: #3e95ab;
-					text-decoration: underline;
 				}
+
+/* CONTENT */
+#wrapper {
+	width: 96%;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+/* ***** */
+/* RESPONSIVE */
+/* ***** */
+
+@media screen and (max-width: 540px) {
+	#nav-button {
+		right: 12px;
+		top: 12px;
+	}
+		a .nav-button-bar {
+			width: 50px;
+			height: 6px;
+			border-radius: 3px;
+			margin: .55em 0;
+		}
+		#nav-button .bar {
+			left: 14px;
+		}
+			#nav-button .bar-top {
+				margin: 0 0 1.25em 0;
+			}
+			#nav-button .bar-bottom {
+				margin: 1.25em 0 0 0;
+			}
+		#menu-logo {
+			padding-top: 3em;
+		}
+		nav {
+			margin-top: 2em;
+		}
+			nav a {
+				font-size: 3.25em;
+				line-height: 1.25em;
+			}
+}
+
+@media screen and (max-width: 375px) {
+	#nav-button {
+		right: 10px;
+		top: 10px;
+	}
+		a .nav-button-bar {
+			width: 40px;
+			height: 6px;
+			border-radius: 3px;
+			margin: .42em 0;
+		}
+		#nav-button .bar {
+			width: 24px;
+		}
+			#nav-button .bar-top {
+				margin: 0 0 1.25em 0;
+			}
+			#nav-button .bar-bottom {
+				margin: 1.25em 0 0 0;
+			}
+		#menu-logo {
+			padding-top: 2.5em;
+		}
+			nav a {
+				font-size: 2.8em;
+				line-height: 1.25em;
+			}
+}
