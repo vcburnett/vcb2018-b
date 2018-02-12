@@ -72,48 +72,132 @@
 
 		<section id="about-me">
 			<div class="content-wrapper">
-				<div id="about-me-wrapper">
-					<p>I started my career as a junior art director at Comunicata Comunicação, in Brazil. Since then, I moved into digital design and now am art director at Konversion (part of Accenture Interactive). As part of my day-to-day, I contribute to marketing strategies and creative processes to optimize our clients’ conversion funnels. My main focus though to create a seamless, unforgetable and - more importantly - useful consumer experience.</p>
-					<p>And my passion for marketing and creativity have now led me down the path of virtual and augmented realities. I’m still learning but soon I hope to be using these new techniques in improve CX in ways not yet known!</p>
-					<a href="javascript:void(0);" class="btn-2">Download my CV</a>
+				<div id="about-me-text-wrapper">
+					<p>I started my career as a junior art director at Comunicata Comunicação, in Brazil. Since then, I moved into digital design and now am <strong>art director at Konversion</strong> (part of <strong>Accenture Interactive</strong>). As part of my day-to-day, I contribute to <strong>marketing strategies and creative processes</strong> to optimize our clients’ conversion funnels. My main focus though to create a seamless, unforgetable and - more importantly - useful <strong>consumer experience</strong>.</p>
+					<p>And my passion for marketing and creativity have now led me down the path of <strong>virtual and augmented realities</strong>. I’m still learning but soon I hope to be using these new techniques in improve CX in ways not yet known!</p>
+					<a href="assets/pdf/Victor-Burnett-CV.pdf" target="_blank" class="btn-2">Download my CV</a>
 					<a href="javascript:void(0);" class="btn-1">Say hello</a>
+				</div>
+				<div id="about-me-icon-wrapper">
+					<div class="service-icon">
+						<img src="assets/images/icon-branding.svg" alt="">
+					</div>
+					<div class="service-icon">
+						<img src="assets/images/icon-digital-design.svg" alt="">
+					</div>
+					<div class="service-icon">
+						<img src="assets/images/icon-strategy.svg" alt="">
+					</div>
+					<div class="service-icon">
+						<img src="assets/images/icon-lamp.svg" alt="">
+					</div>
+					<div class="service-icon">
+						<img src="assets/images/icon-data-analysis.svg" alt="">
+					</div>
+					<div class="service-icon">
+						<img src="assets/images/icon-photography.svg" alt="">
+					</div>
 				</div>
 			</div>
 		</section>
+
+		<section id="portfolio">
+
+		</section>
+
+		<section id="clients">
+			<div class="clients-border client-border-top">
+			</div>
+			<div id="clients-wrapper">
+				<div class="content-wrapper">
+					<div id="clients-content">
+						<h4>Brands I've worked with</h4>
+						<div id="clients-logos">
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-playboy.png" alt="Playboy">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-pits-bbq.png" alt="Pit's BBQ">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-harley-davidson.png" alt="Harley Davidson">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-shi.png" alt="Sustainable Harvest International">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-attitude.png" alt="Attitude">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-belairdirect.png" alt="belairdirect">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-intact.png" alt="Intact">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-protectron.png" alt="Protectron">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-bath-fitter.png" alt="Bath Fitter">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-bdc.png" alt="BDC">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-cavalia.png" alt="Cavalia">
+							</div>
+							<div class="client-logo">
+								<img src="assets/images/client-logos/logo-client-kombi.png" alt="Kombi">
+							</div>
+						</div>
+						<p>and many others!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience">
+			<div class="content-wrapper">
+				<h2>Ex<br>per<br>ien<br>ce</h2>
+			</div>
+		</section>
+
 	</div>
 
 	<section id="contact">
 		<div class="content-wrapper">
-			<div id="contact-content">
-				<p>Feel free to use the contact form to contact me regarding working together, any question you might have or simply to tell me a joke. I will do my best to reply to any email as soon as I can.</p>
-			</div>
-			<div id="contact-form">
-				<form>
-					<span class="input input--isao">
-						<input class="input__field input__field--isao" type="text" id="input-38" />
-						<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-							<span class="input__label-content input__label-content--isao">Name</span>
-						</label>
-					</span>
-					<span class="input input--isao">
-						<input class="input__field input__field--isao" type="text" id="input-38" />
-						<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-							<span class="input__label-content input__label-content--isao">Email</span>
-						</label>
-					</span>
-					<span class="input input--isao">
-						<input class="input__field input__field--isao" type="text" id="input-38" />
-						<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-							<span class="input__label-content input__label-content--isao">Company</span>
-						</label>
-					</span>
-					<span class="input input--isao">
-						<input class="input__field input__field--isao" type="text" id="input-38" />
-						<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-							<span class="input__label-content input__label-content--isao">Message</span>
-						</label>
-					</span>
-				</form>
+			<div id="contact-wrapper">
+				<div id="contact-content">
+					<p>Feel free to use the contact form to contact me regarding working together, any question you might have or simply to tell me a joke. I will do my best to reply to any email as soon as I can.</p>
+				</div>
+				<div id="contact-form">
+					<form>
+						<span class="input input--isao">
+							<input class="input__field input__field--isao" type="text" id="input-38" />
+							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
+								<span class="input__label-content input__label-content--isao">Name</span>
+							</label>
+						</span>
+						<span class="input input--isao">
+							<input class="input__field input__field--isao" type="text" id="input-38" />
+							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
+								<span class="input__label-content input__label-content--isao">Email</span>
+							</label>
+						</span>
+						<span class="input input--isao">
+							<input class="input__field input__field--isao" type="text" id="input-38" />
+							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
+								<span class="input__label-content input__label-content--isao">Company</span>
+							</label>
+						</span>
+						<span class="input input--isao">
+							<input class="input__field input__field--isao" type="text" id="input-38" />
+							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
+								<span class="input__label-content input__label-content--isao">Message</span>
+							</label>
+						</span>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>

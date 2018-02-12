@@ -54,8 +54,8 @@ img {
 	box-sizing: border-box;
 }
 a, a > * {
-	-webkit-transition: color .3s, background-color .3s, fill .15s;
-	transition: color .3s, background-color .3s, fill .15s;
+	-webkit-transition: color .3s, border-color .3s, background-color .3s, fill .15s;
+	transition: color .3s, border-color .3s, background-color .3s, fill .15s;
 }
 /* end/ RESET */
 
@@ -73,7 +73,7 @@ html, body {
 	height: 100%;
 	font-family: "Titillium Web", sans-serif;
 	font-size: 14px;
-	line-height: 21px;
+	line-height: 20px;
 	color: #333;
 	background-color: #f6f6f6;
 }
@@ -103,6 +103,7 @@ a.btn-1, a.btn-2 {
 	font-weight: 700;
 	display: inline-block;
 	padding: 13px 19px;
+	margin-top: 1.5em;
 }
 a.btn-2 {
 	background-color: transparent;
@@ -113,7 +114,25 @@ a.btn-2 {
 	a.btn-1:hover {
 		background-color: #0e6d84;
 	}
+	a.btn-2:hover {
+		border-color: #0e6d84;
+		background-color: #0e6d84;
+		color: #fff;
+	}
 
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 4.25em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: .82em;
+	color: #000;
+}
+	h2:after {
+		content: "";
+		display: block;
+		margin: 12px 0 0 0;
+	}
 
 /* MAIN MENU */
 	#nav-button {
@@ -140,7 +159,7 @@ a.btn-2 {
 				
 			}
 			a:hover .nav-button-bar {
-				background-color: red;
+				background-color: #3e95ab;
 			}
 		#nav-button .bar {
 			display: block;
@@ -210,9 +229,9 @@ a.btn-2 {
 	position: absolute;
 }
 	#vcb-logo-wrapper {
-		width: 520px;
+		width: 600px;
 		margin: 0 auto;
-		fill: rgba(0,0,0,.6);
+		fill: rgba(0,0,0,.72);
 	}
 
 section {
@@ -227,29 +246,110 @@ section {
 	}
 
 /* Hero */
-#hero-content-wrapper {
-	width: 380px;
-	margin: 18em 0 0 90px;
+#intro {
+	margin-bottom: 10em;
 }
-	#hero-content-wrapper a {
-		margin-top: 1.5em;
+	#hero-content-wrapper {
+		width: 380px;
+		margin: 21.5em 0 0 90px;
 	}
+
+/* About Me */
+#about-me {
+	text-align: center;
+	padding: 4em 0 14em 0;
+}
+#about-me-text-wrapper {
+	width: 300px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+}
+#about-me-icon-wrapper {
+	width: 480px;
+	margin-left: 80px;
+	display: inline-block;
+	vertical-align: top;
+}
+	.service-icon {
+		width: 27%;
+		margin: 0 2% 4% 2%;
+		padding: 27px;
+		border-radius: 50%;
+		overflow: hidden;
+		background-color: rgba(255,255,255,.92);
+		display: inline-block;
+	}
+
+/* Portfolio */
+
+/* Clients */
+#clients {
+
+}
+	.clients-border {
+		width: 100%;
+		height: 250px;
+		display: block;
+	}
+		.client-border-top {
+			background: url("assets/images/grunge-texture-top.png") no-repeat center center;
+		}
+	#clients-wrapper {
+		width: 100%;
+		display: block;
+		background-color: #000;
+		padding: 1em 0;
+	}
+		#clients-content {
+			text-align: center;
+		}
+			.clients-logos {
+
+			}
+				#client-logos {
+
+				}
+					.client-logo {
+						width: 14%;
+						margin: 1%;
+						padding: 2px;
+						display: inline-block;
+					}
+
+/* Experience */
+section#experience {
+	background: url("assets/images/grunge-texture-bottom.png") no-repeat center top;
+	height: 600px;
+}
+	#experience h2 {
+		font-size: 8.2em;
+		line-height: .77em;
+	}
+
 
 /* Contact */
 #contact {
-	background-color: #242829;
-	padding: 4em 0;
+	background-color: #161616;
+	padding: 230px 0;
 	color: #ccc;
 }
-	#contact-content {
-		width: 220px;
-		display: inline-block;
-		margin-right: 20px;
+	#contact-wrapper {
+		width: 640px;
+		text-align: center;
+		margin: 0 auto;
 	}
-	#contact-form {
-		width: 380px;
-		display: inline-block;
-	}
+		#contact-content {
+			width: 220px;
+			text-align: left;
+			display: inline-block;
+			margin-right: 20px;
+		}
+		#contact-form {
+			width: 380px;
+			text-align: left;
+			display: inline-block;
+		}
 
 /* footer */
 footer {
@@ -258,8 +358,8 @@ footer {
 	#instagram-feed {
 		width: 100%;
 		height: 250px;
-		display: block;
-		background-color: red;
+		display: none; /* block */
+		background-color: #3e95ab;
 	}
 	#copyright {
 		width: 100%;
