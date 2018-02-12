@@ -54,13 +54,17 @@ img {
 	box-sizing: border-box;
 }
 a, a > * {
-	-webkit-transition: color .3s, background-color .3s;
-	transition: color .3s, background-color .3s;
+	-webkit-transition: color .3s, background-color .3s, fill .15s;
+	transition: color .3s, background-color .3s, fill .15s;
 }
 /* end/ RESET */
 
-/* Fonts 
-	font-family: 'Roboto Slab', serif;
+/* Fonts */
+@font-face {
+	font-family: "Marfusha";
+	src: url("assets/fonts/marfusha-regular.otf");
+}
+/*	font-family: 'Roboto Slab', serif;
 	font-family: 'Titillium Web', sans-serif;
 end/ Fonts */
 
@@ -74,20 +78,49 @@ html, body {
 	background-color: #f6f6f6;
 }
 
-/* MAIN MENU */
-section#nav-mm {
-	width: 100vw;
-	height: 100vh;
-	position: fixed;
-	top: 0;
-	left: 0;
-	text-align: center;
-	z-index: 100;
+p {
+	margin-bottom: .4em;
 }
+
+strong {
+	font-weight: 700;
+}
+
+.marfusha-font {
+	font-family: "Marfusha", sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1.25em;
+	margin: .3em 0 0 -20px;
+}
+
+a.btn-1, a.btn-2 {
+	color: #fff;
+	background-color: #3e95ab;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1em;
+	font-weight: 700;
+	display: inline-block;
+	padding: 13px 19px;
+}
+a.btn-2 {
+	background-color: transparent;
+	color: #3e95ab;
+	padding: 12px 18px;
+	border: 1px solid #3e95ab;
+}
+	a.btn-1:hover {
+		background-color: #0e6d84;
+	}
+
+
+/* MAIN MENU */
 	#nav-button {
 		position: absolute;
 		right: 30px;
 		top: 30px;
+		z-index: 250;
 	}
 		a .nav-button-bar {
 			width: 60px;
@@ -124,16 +157,25 @@ section#nav-mm {
 				margin: 1.6em 0 0 0;
 			}
 	#menu-wrapper {
-		width: 100%;
-		height: 100%;
-		display: none;
+		width: 100vw; /* 100vw */
+		height: 100vh; /* 100vh */
+		display: none; /* block */
+		position: fixed;
+		z-index: 240;
 		background-color: #fff;
+		text-align: center;
 	}
 		#menu-logo {
 			display: inline-block;
 			width: 90px;
 			padding-top: 4.25em;
 		}
+			#menu-logo a {
+				fill: #000;
+			}
+				#menu-logo a:hover {
+					fill: #3e95ab;
+				}
 		nav {
 			margin-top: 2.5em;
 		}
@@ -155,16 +197,63 @@ section#nav-mm {
 
 /* CONTENT */
 #wrapper {
-	width: 96%;
-	max-width: 1020px;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0;
+	padding-top: 2.5em;
 }
+	.wrapper-man {
+		background: url("assets/images/_temp/man.png") no-repeat 86% 1.25%;
+	}
 
+#vcb-logo {
+	width: 100%;
+	position: absolute;
+}
+	#vcb-logo-wrapper {
+		width: 520px;
+		margin: 0 auto;
+		fill: rgba(0,0,0,.6);
+	}
+
+section {
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+	.content-wrapper {
+		width: 96%;
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+
+/* Hero */
+#hero-content-wrapper {
+	width: 380px;
+	margin: 18em 0 0 90px;
+}
+	#hero-content-wrapper a {
+		margin-top: 1.5em;
+	}
+
+/* Contact */
+#contact {
+	background-color: #242829;
+	padding: 4em 0;
+	color: #ccc;
+}
+	#contact-content {
+		width: 220px;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	#contact-form {
+		width: 380px;
+		display: inline-block;
+	}
 
 /* footer */
 footer {
 	width: 100%;
-
 }
 	#instagram-feed {
 		width: 100%;
