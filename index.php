@@ -43,7 +43,7 @@
 			<a href="javascript:void(0);">About me</a>
 			<a href="javascript:void(0);">What I do</a>
 			<a href="javascript:void(0);">Portfolio</a>
-			<a href="javascript:void(0);">Contact</a>
+			<a href="#contact">Contact</a>
 			<a href="javascript:void(0);" id="btn-lang">Version française</a>
 		</nav>
 	</div>
@@ -60,23 +60,27 @@
 		</div>
 
 		<section id="intro">
+			<div class="title title-left"><h2>Hello!</h2></div>
+			<div class="title title-right"><h2>Hello!</h2></div>
 			<div class="content-wrapper">
 				<div id="hero-content-wrapper">
 					<p>I’m a <strong>digital art director</strong> working at Altimaº X Konversion. I’ve started working with marketing and advertising way back in 2005 and still love every second of it.</p>
 					<p class="marfusha-font">Go and explore!</p>
 					<p>Check out some of my favourite projects. Who knows, maybe one day we’ll work on something together!</p>
-					<a href="javascript:void(0);" class="btn-1">Sey hello</a>
+					<a href="#contact" class="btn-1">Sey hello</a>
 				</div>
 			</div>
 		</section>
 
 		<section id="about-me">
+			<div class="title title-left"><h2>About me</h2></div>
+			<div class="title title-right"><h2>About me</h2></div>
 			<div class="content-wrapper">
 				<div id="about-me-text-wrapper">
 					<p>I started my career as a junior art director at Comunicata Comunicação, in Brazil. Since then, I moved into digital design and now am <strong>art director at Konversion</strong> (part of <strong>Accenture Interactive</strong>). As part of my day-to-day, I contribute to <strong>marketing strategies and creative processes</strong> to optimize our clients’ conversion funnels. My main focus though to create a seamless, unforgetable and - more importantly - useful <strong>consumer experience</strong>.</p>
 					<p>And my passion for marketing and creativity have now led me down the path of <strong>virtual and augmented realities</strong>. I’m still learning but soon I hope to be using these new techniques in improve CX in ways not yet known!</p>
 					<a href="assets/pdf/Victor-Burnett-CV.pdf" target="_blank" class="btn-2">Download my CV</a>
-					<a href="javascript:void(0);" class="btn-1">Say hello</a>
+					<a href="#contact" class="btn-1">Say hello</a>
 				</div>
 				<div id="about-me-icon-wrapper">
 					<div class="service-icon">
@@ -102,20 +106,30 @@
 		</section>
 
 		<section id="portfolio">
-			<div class="content-wrapper">
-				<div class="portfolio-container portfolio-1">
+			<div class="content-wrapper">	
+				<div id="portfolio-wrapper">
+					<a href="case-study.php" class="portfolio-container portfolio-1" style="background-image: url('assets/images/_temp/port-img-1.png');">
+						<div class="portfolio-cs-content">
 
-				</div>
-				<div class="portfolio-container portfolio-2">
+						</div>
+					</a>
+					<a href="case-study.php" class="portfolio-container portfolio-2" style="background-image: url('assets/images/_temp/port-img-2.png');">
+						<div class="portfolio-cs-content">
 
-				</div>
-				<div class="portfolio-container portfolio-3">
+						</div>
+					</a>
+					<a href="case-study.php" class="portfolio-container portfolio-3" style="background-image: url('assets/images/_temp/port-img-3.png');">
+						<div class="portfolio-cs-content">
 
-				</div>
-				<div class="portfolio-container portfolio-4">
+						</div>
+					</a>
+					<a href="case-study.php" class="portfolio-container portfolio-4" style="background-image: url('assets/images/_temp/port-img-4.png');">
+						<div class="portfolio-cs-content">
 
+						</div>
+					</a>
+					<a href="portfolio.php" class="btn-4" id="portfolio-btn">View my portfolio</a>
 				</div>
-				<a href="javascript:void(0);">View portfolio</a>
 			</div>
 		</section>
 
@@ -126,7 +140,7 @@
 						<div class="freelance-pen">
 							<img src="assets/images/pen.png" alt="Victor Burnett Freelancing">
 						</div>
-						<a href="javascript:vois(0);" class="btn-3">Let's work together</a>
+						<a href="#contact" class="btn-3">Let's work together</a>
 					</div>
 			</div>
 			<div id="clients-wrapper">
@@ -270,6 +284,8 @@
 	</div>
 
 	<section id="contact">
+		<div class="title title-left"><h2>Say hello</h2></div>
+		<div class="title title-right"><h2>Say hello</h2></div>
 		<div class="content-wrapper">
 			<div id="contact-wrapper">
 				<div id="contact-content">
@@ -301,6 +317,7 @@
 								<span class="input__label-content input__label-content--isao">Message</span>
 							</label>
 						</span>
+						<a href="javascript:void(0);" class="btn-1">Message me</a>
 					</form>
 				</div>
 			</div>

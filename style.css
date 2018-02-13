@@ -94,7 +94,7 @@ strong {
 	margin: .3em 0 0 -20px;
 }
 
-a.btn-1, a.btn-2, a.btn-3 {
+a.btn-1, a.btn-2, a.btn-3, a.btn-4 {
 	color: #fff;
 	background-color: #3e95ab;
 	text-transform: uppercase;
@@ -115,6 +115,10 @@ a.btn-3 {
 	background-color: #fff;
 	color: #3e95ab;
 }
+a.btn-4 {
+	background-color: #b85578;
+	color: #fff;
+}
 	a.btn-1:hover {
 		background-color: #0e6d84;
 	}
@@ -125,6 +129,9 @@ a.btn-3 {
 	}
 	a.btn-3:hover {
 		background-color: #d5f0f7;
+	}
+	a.btn-4:hover {
+		background-color: #963a5b;
 	}
 
 h2 {
@@ -138,7 +145,10 @@ h2 {
 	h2:after {
 		content: "";
 		display: block;
-		margin: 12px 0 0 0;
+		width: 110px;
+		height: 5px;
+		background-color: #000;
+		margin: 30px 0 0 0;
 	}
 h3 {
 	font-family: "Roboto Slab", serif;
@@ -250,21 +260,37 @@ h3 {
 section {
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 	z-index: 10;
+	background-color: rgba(255,0,0,.12);
 }
 	.content-wrapper {
 		width: 96%;
 		max-width: 1024px;
 		margin: 0 auto;
 	}
+	.title {
+		position: absolute;
+		transform: rotate(90deg);
+		top: 160px;
+	}
+		.title-left {
+			left: -118px;
+		}
+		.title-right {
+			right: -87px;
+		}
 
 /* Hero */
 #intro {
 	margin-bottom: 10em;
 }
+	#intro .title-left, #intro .title-right {
+		top: 367px;
+	}
 	#hero-content-wrapper {
 		width: 380px;
-		margin: 21.5em 0 0 90px;
+		margin: 21.5em 0 5em 90px;
 	}
 
 /* About Me */
@@ -272,6 +298,12 @@ section {
 	text-align: center;
 	padding: 4em 0 14em 0;
 }
+	#about-me .title-left {
+		left: -174px;	
+	}
+	#about-me .title-right {
+		right: -141px;
+	}
 #about-me-text-wrapper {
 	width: 300px;
 	text-align: left;
@@ -295,19 +327,57 @@ section {
 	}
 
 /* Portfolio */
-.portfolio-container {
-	display: block;
-	box-shadow: 0 5px 12px rgba(0,0,0,.14);
-	margin: 20px;
+#portfolio {
+	margin-bottom: 3.5em;
 }
-.portfolio-2, .portfolio-3 {
-	width: 420px;
-	height: 420px;
+#portfolio-wrapper {
+	width: 860px;
+	height: 860px;
+	position: relative;
+	margin: 0 auto;
 }
-.portfolio-1, .portfolio-4 {
-	width: 240px;
-	height: 240px;
-}
+	.portfolio-container {
+		display: block;
+		position: absolute;
+		box-shadow: 0 5px 12px rgba(0,0,0,.14);
+		background: #fff no-repeat center center;
+		background-size: cover;
+	}
+	.portfolio-2, .portfolio-3 {
+		width: 420px;
+		height: 420px;
+	}
+	.portfolio-1, .portfolio-4 {
+		width: 240px;
+		height: 240px;
+	}
+		.portfolio-1 {
+			margin: 180px 0 0 180px;
+		}
+		.portfolio-2 {
+			margin-left: 440px;
+		}
+		.portfolio-3 {
+			margin-top: 440px;
+		}
+		.portfolio-4 {
+			margin: 440px 0 0 440px;
+		}
+		a#portfolio-btn {
+			width: 240px;
+			text-align: center;
+			padding: 13px 0;
+			margin: 700px 0 0 440px;
+		}
+			.portfolio-cs-content {
+				opacity: 0;
+			}
+			#portfolio-wrapper a:hover .portfolio-cs-content {
+				width: 100%;
+				height: 100%;
+				opacity: 1;
+				background-color: rgba(255,255,255,.84);
+			}
 
 /* Freelancing */
 .freelance-box {
@@ -374,6 +444,9 @@ section#experience {
 			font-size: 8.2em;
 			line-height: .77em;
 		}
+			#exp-title-wrapper h2:after {
+				display: none;
+			}
 	#exp-content-wrapper {
 		width: 460px;
 		margin-left: 80px;
@@ -441,6 +514,20 @@ section#experience {
 	padding: 230px 0;
 	color: #ccc;
 }
+	#contact .title-left {
+		top: 325px;
+		left: -174px;
+	}
+	#contact .title-right {
+		top: 325px;
+		right: -141px;
+	}
+		#contact .title h2 {
+			color: #fff;
+		}
+			#contact .title h2:after {
+				background-color: #fff;
+			}
 	#contact-wrapper {
 		width: 640px;
 		text-align: center;
@@ -451,11 +538,14 @@ section#experience {
 			text-align: left;
 			display: inline-block;
 			margin-right: 20px;
+			vertical-align: top;
 		}
 		#contact-form {
 			width: 380px;
 			text-align: left;
 			display: inline-block;
+			vertical-align: top;
+			padding-top: 63px;
 		}
 
 /* footer */
