@@ -102,11 +102,32 @@
 		</section>
 
 		<section id="portfolio">
+			<div class="content-wrapper">
+				<div class="portfolio-container portfolio-1">
 
+				</div>
+				<div class="portfolio-container portfolio-2">
+
+				</div>
+				<div class="portfolio-container portfolio-3">
+
+				</div>
+				<div class="portfolio-container portfolio-4">
+
+				</div>
+				<a href="javascript:void(0);">View portfolio</a>
+			</div>
 		</section>
 
 		<section id="clients">
 			<div class="clients-border client-border-top">
+					<div class="freelance-box">
+						<h4>Available for freelancing</h4>
+						<div class="freelance-pen">
+							<img src="assets/images/pen.png" alt="Victor Burnett Freelancing">
+						</div>
+						<a href="javascript:vois(0);" class="btn-3">Let's work together</a>
+					</div>
 			</div>
 			<div id="clients-wrapper">
 				<div class="content-wrapper">
@@ -158,7 +179,91 @@
 
 		<section id="experience">
 			<div class="content-wrapper">
-				<h2>Ex<br>per<br>ien<br>ce</h2>
+				<div id="exp-title-wrapper">
+					<h2>Ex<br>per<br>ien<br>ce</h2>
+				</div>
+				<div id="exp-content-wrapper">
+					<p>I have had the luck to work in many different and interesting places. Sometimes client-side, but most of my career has been working at agencies. This gave me the opportunity to work with multiple clients in various niches and to explore different solutions to the different challenges present in the multitude of verticals.</p>
+					<p>My current job is at Konversion, which has currently joined the Accenture Interactive group. For sure, new and exciting projects are soon to come!</p>
+					<a href="javascript:void(0);" class="btn-2">View my full experience</a>
+				</div>
+
+				<div id="experience-jobs">
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-1.png" alt="Konversion ( part of Accenture Interactive )">
+						</div>
+						<div class="job-content">
+							<h3>Konversion</h3>
+							<p class="job-subtext">( part of <strong>Accenture Interactive</strong> )</p>
+							<p>I currently work here as art director. As such, I actively contribute to marketing strategies, creative meetings and client presentations. In addition, I work on bringing the conversion process to life and to continuously optimizing our clients’ online presence, trhough analysis of data and experience research.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-2.png" alt="Caesars Interactive Entertainment ( CIE )">
+						</div>
+						<div class="job-content">
+							<h3>Caesars Interactive Entertainment</h3>
+							<p class="job-subtext">( WSOP / Caesar’s Casino / Harrah’s Casino )</p>
+							<p>Another awesome place I worked at. I was mainly working with the WSOP, but occasionally did projects for Caesar’s and Harrah’s Casinos. Most of the work was digital, but I worked on a lot of on-location assets.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-3.png" alt="Playboy.com">
+						</div>
+						<div class="job-content">
+							<h3>Playbot.com</h3>
+							<p>Most of the people I know dreamed of working here, and I’m happy to have had the opportunity. I worked in the in-house marketing department creating ads, editorials and strategies for companies on advertising on Playboy.com. It worked like an agency... but a little hotter!</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-4.png" alt="Lulu Software / Lavasoft">
+						</div>
+						<div class="job-content">
+							<h3>Lulu Software / Lavasoft</h3>
+							<p>My first time working client-side. For the first time I have been involved in marketing strategy and viewing the project from their point-of-view. This helped me, in my future jobs, to look at the projects in a different way.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-5.png" alt="NetAvance">
+						</div>
+						<div class="job-content">
+							<h3>NetAvance</h3>
+							<p>NetAvance gave me my first job in Canada. During my time there, I helped them grow from an IT company to a full service web design boutique. I also had my first contact with the Canadian market and the brands that were new to me.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-6.png" alt="Peppr.">
+						</div>
+						<div class="job-content">
+							<h3>Peppr.</h3>
+							<p>At Peppr I had the chance of leading small design team as well as a team of developers as digital creative director. I also worked very closely to the UX director, having my first contact with user-oriented design.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-7.png" alt="TV1.com">
+						</div>
+						<div class="job-content">
+							<h3>TV1.com</h3>
+							<p>This was the start of my digital path. At TV1, .com department, I translated the knowledge I had of offline design to digital, while also adventuring in motion design and writing my first few lines of code. The possibilities of what to do in digital made me fall in love with the digital fields.</p>
+						</div>
+					</div>
+					<div class="job">
+						<div class="job-stain">
+							<img src="assets/images/stain-8.png" alt="Comunicata Comunicação">
+						</div>
+						<div class="job-content">
+							<h3>Comunicata Comunicação</h3>
+							<p>My first job in a creative team, as junior art director. This is where I really fell in love with advertising and marketing and decided that was the career I wanted. It also taught me valuable lessons about agency life: tough but awesome.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 

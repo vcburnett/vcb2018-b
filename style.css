@@ -94,7 +94,7 @@ strong {
 	margin: .3em 0 0 -20px;
 }
 
-a.btn-1, a.btn-2 {
+a.btn-1, a.btn-2, a.btn-3 {
 	color: #fff;
 	background-color: #3e95ab;
 	text-transform: uppercase;
@@ -111,6 +111,10 @@ a.btn-2 {
 	padding: 12px 18px;
 	border: 1px solid #3e95ab;
 }
+a.btn-3 {
+	background-color: #fff;
+	color: #3e95ab;
+}
 	a.btn-1:hover {
 		background-color: #0e6d84;
 	}
@@ -118,6 +122,9 @@ a.btn-2 {
 		border-color: #0e6d84;
 		background-color: #0e6d84;
 		color: #fff;
+	}
+	a.btn-3:hover {
+		background-color: #d5f0f7;
 	}
 
 h2 {
@@ -133,6 +140,12 @@ h2 {
 		display: block;
 		margin: 12px 0 0 0;
 	}
+h3 {
+	font-family: "Roboto Slab", serif;
+	font-size: 1.1em;
+	line-height: 1.25em;
+	font-weight: bold;
+}
 
 /* MAIN MENU */
 	#nav-button {
@@ -282,6 +295,35 @@ section {
 	}
 
 /* Portfolio */
+.portfolio-container {
+	display: block;
+	box-shadow: 0 5px 12px rgba(0,0,0,.14);
+	margin: 20px;
+}
+.portfolio-2, .portfolio-3 {
+	width: 420px;
+	height: 420px;
+}
+.portfolio-1, .portfolio-4 {
+	width: 240px;
+	height: 240px;
+}
+
+/* Freelancing */
+.freelance-box {
+	width: 300px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #3e95ab;
+	display: block;
+	margin: 0 auto;
+	padding: 2em;
+}
+	.freelance-pen {
+		width: 100px;
+		margin: .5em auto;
+	}
 
 /* Clients */
 #clients {
@@ -294,6 +336,7 @@ section {
 	}
 		.client-border-top {
 			background: url("assets/images/grunge-texture-top.png") no-repeat center center;
+			padding-top: 4em;
 		}
 	#clients-wrapper {
 		width: 100%;
@@ -320,12 +363,76 @@ section {
 /* Experience */
 section#experience {
 	background: url("assets/images/grunge-texture-bottom.png") no-repeat center top;
-	height: 600px;
+	padding-top: 3em;
 }
-	#experience h2 {
-		font-size: 8.2em;
-		line-height: .77em;
+	#exp-title-wrapper {
+		width: 240px;
+		display: inline-block;
+		vertical-align: top;
 	}
+		#exp-title-wrapper h2 {
+			font-size: 8.2em;
+			line-height: .77em;
+		}
+	#exp-content-wrapper {
+		width: 460px;
+		margin-left: 80px;
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 6.25em;
+	}
+	#experience-jobs {
+		width: 100%;
+		height: auto;
+		display: block;
+		overflow: hidden;
+		padding-top: 3em;
+		margin-bottom: 10em;
+	}
+		.job {
+			width: 580px;
+			display: table;
+			margin-bottom: 5em;
+			float: right;
+			clear: both;
+		}
+			.job-stain {
+				width: 130px;
+				display: block;
+				position: relative;
+				margin-top: -48px;
+				float: left;
+				clear: left;
+			}
+			.job-content {
+				width: 420px;
+				display: block;
+				margin-left: 15px;
+				float: right;
+				clear: right;
+			}
+				.job-content p {
+					margin-top: .5em;
+				}
+				.job-content p.job-subtext {
+					color: #666;
+					font-size: .87em;
+					line-height: 1.25em;
+					margin-top: .1em;
+				}
+		.job:nth-child(even) {
+			text-align: right;
+			float: left;
+		}
+			.job:nth-child(even) .job-stain {
+				float: right;
+				clear: right;
+			}
+			.job:nth-child(even) .job-content {
+				margin: 0 15px 0 0;
+				float: left;
+				clear: left;
+			}
 
 
 /* Contact */
