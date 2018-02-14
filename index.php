@@ -48,7 +48,7 @@
 		</nav>
 	</div>
 
-	<div id="wrapper" class="wrapper-man">
+	<div id="wrapper" class="wrapper-hp-image">
 		<div id="vcb-logo">
 			<div id="vcb-logo-wrapper">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 363.5 237.6" style="enable-background:new 0 0 363.5 237.6;" xml:space="preserve">
@@ -106,6 +106,8 @@
 		</section>
 
 		<section id="portfolio">
+			<div class="title title-left"><h2>Port<br>fo<br>lio</h2></div>
+			<div class="title title-right"><h2>Port<br>fo<br>lio</h2></div>
 			<div class="content-wrapper">	
 				<div id="portfolio-wrapper">
 					<a href="case-study.php" class="portfolio-container portfolio-1" style="background-image: url('assets/images/_temp/port-img-1.png');">
@@ -293,28 +295,28 @@
 				</div>
 				<div id="contact-form">
 					<form>
-						<span class="input input--isao">
-							<input class="input__field input__field--isao" type="text" id="input-38" />
-							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-								<span class="input__label-content input__label-content--isao">Name</span>
+						<span class="input input-isao">
+							<input class="input_field input_field-isao" type="text" id="input-1" />
+							<label class="input_label input_label-isao" for="input-1" data-content="Name">
+								<span class="input_label-content input__label-content--isao">Name</span>
 							</label>
 						</span>
-						<span class="input input--isao">
-							<input class="input__field input__field--isao" type="text" id="input-38" />
-							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-								<span class="input__label-content input__label-content--isao">Email</span>
+						<span class="input input-isao">
+							<input class="input_field input_field-isao" type="email" id="input-2" />
+							<label class="input_label input_label-isao" for="input-2" data-content="Email">
+								<span class="input_label-content input__label-content--isao">Email</span>
 							</label>
 						</span>
-						<span class="input input--isao">
-							<input class="input__field input__field--isao" type="text" id="input-38" />
-							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-								<span class="input__label-content input__label-content--isao">Company</span>
+						<span class="input input-isao">
+							<input class="input_field input_field-isao" type="text" id="input-3" />
+							<label class="input_label input_label-isao" for="input-3" data-content="Company">
+								<span class="input_label-content input__label-content--isao">Company</span>
 							</label>
 						</span>
-						<span class="input input--isao">
-							<input class="input__field input__field--isao" type="text" id="input-38" />
-							<label class="input__label input__label--isao" for="input-38" data-content="First Name">
-								<span class="input__label-content input__label-content--isao">Message</span>
+						<span class="input input-isao">
+							<textarea class="input_field input_field-isao" id="input-4" rows="4" /></textarea>
+							<label class="input_label input_label-isao" for="input-4" data-content="Message">
+								<span class="input_label-content input__label-content--isao">Message</span>
 							</label>
 						</span>
 						<a href="javascript:void(0);" class="btn-1">Message me</a>
@@ -341,6 +343,44 @@
 			</div>
 		</div>
 	</footer>
+
+<!-- Scripts -->
+<script src="assets/js/classie.js"></script>
+<script>
+	(function() {
+		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+		if (!String.prototype.trim) {
+			(function() {
+				// Make sure we trim BOM and NBSP
+				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+				String.prototype.trim = function() {
+					return this.replace(rtrim, '');
+				};
+			})();
+		}
+
+		[].slice.call( document.querySelectorAll( '.input_field' ) ).forEach( function( inputEl ) {
+			// in case the input is already filled..
+			if( inputEl.value.trim() !== '' ) {
+				classie.add( inputEl.parentNode, 'input-filled' );
+			}
+
+			// events:
+			inputEl.addEventListener( 'focus', onInputFocus );
+			inputEl.addEventListener( 'blur', onInputBlur );
+		} );
+
+		function onInputFocus( ev ) {
+			classie.add( ev.target.parentNode, 'input-filled' );
+		}
+
+		function onInputBlur( ev ) {
+			if( ev.target.value.trim() === '' ) {
+				classie.remove( ev.target.parentNode, 'input-filled' );
+			}
+		}
+	})();
+</script>
 
 </body>
 </html>

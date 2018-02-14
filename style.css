@@ -46,6 +46,7 @@ table {
 img {
 	width: 100%;
 	height: auto;
+	display: block;
 }
 * {
 	box-sizing: border-box;
@@ -243,8 +244,10 @@ h3 {
 	margin: 0;
 	padding-top: 2.5em;
 }
-	.wrapper-man {
-		background: url("assets/images/_temp/man.png") no-repeat 86% 1.25%;
+	.wrapper-hp-image {
+		background-image: url("assets/images/_temp/man.png");
+		background-repeat: no-repeat;
+		background-position: 86% 1.25%;
 	}
 
 #vcb-logo {
@@ -252,9 +255,10 @@ h3 {
 	position: absolute;
 }
 	#vcb-logo-wrapper {
-		width: 600px;
+		width: 68%;
+		max-width: 600px;
 		margin: 0 auto;
-		fill: rgba(0,0,0,.72);
+		fill: rgba(0,0,0,.6);
 	}
 
 section {
@@ -262,7 +266,6 @@ section {
 	position: relative;
 	overflow: hidden;
 	z-index: 10;
-	background-color: rgba(255,0,0,.12);
 }
 	.content-wrapper {
 		width: 96%;
@@ -274,6 +277,10 @@ section {
 		transform: rotate(90deg);
 		top: 160px;
 	}
+		#portfolio .title {
+			top: 0;
+			transform: rotate(0deg);
+		}
 		.title-left {
 			left: -118px;
 		}
@@ -289,8 +296,10 @@ section {
 		top: 367px;
 	}
 	#hero-content-wrapper {
-		width: 380px;
-		margin: 21.5em 0 5em 90px;
+		width: 37.5%;
+		max-width: 380px;
+		min-width: 235px;
+		margin: 21.5em 0 5em 12.5%;
 	}
 
 /* About Me */
@@ -305,14 +314,15 @@ section {
 		right: -141px;
 	}
 #about-me-text-wrapper {
-	width: 300px;
+	width: 280px;
 	text-align: left;
 	display: inline-block;
 	vertical-align: top;
 }
 #about-me-icon-wrapper {
-	width: 480px;
-	margin-left: 80px;
+	width: calc(100% - 384px);
+	max-width: 480px;
+	margin-left: 20px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -330,6 +340,16 @@ section {
 #portfolio {
 	margin-bottom: 3.5em;
 }
+	#portfolio .title h2 {
+		font-size: 6.85em;
+		line-height: .8em;
+	}
+	#portfolio .title-left {
+		left: -71px;	
+	}
+	#portfolio .title-right {
+		right: -181px;
+	}
 #portfolio-wrapper {
 	width: 860px;
 	height: 860px;
@@ -389,6 +409,7 @@ section {
 	display: block;
 	margin: 0 auto;
 	padding: 2em;
+	box-shadow: 0 6px 12px rgba(0,0,0,.4);
 }
 	.freelance-pen {
 		width: 100px;
@@ -417,6 +438,13 @@ section {
 		#clients-content {
 			text-align: center;
 		}
+			#clients-content h4 {
+				text-transform: uppercase;
+				margin-bottom: 1.5em;
+			}
+			#clients-content p {
+				margin-top: 1.5em;
+			}
 			.clients-logos {
 
 			}
@@ -452,14 +480,14 @@ section#experience {
 		margin-left: 80px;
 		display: inline-block;
 		vertical-align: top;
-		padding-top: 6.25em;
+		padding-top: 10em;
 	}
 	#experience-jobs {
 		width: 100%;
 		height: auto;
 		display: block;
 		overflow: hidden;
-		padding-top: 3em;
+		padding-top: 8.5em;
 		margin-bottom: 10em;
 	}
 		.job {
@@ -547,6 +575,111 @@ section#experience {
 			vertical-align: top;
 			padding-top: 63px;
 		}
+			#contact-form a.btn-1 {
+				margin-top: 0;
+			}
+
+		/* Isao Input Fields */
+		.input {
+			width: 100%;
+			display: inline-block;
+			position: relative;
+			z-index: 1;
+			vertical-align: top;
+			margin: 0;
+		}
+			.input_field {
+				width: 100%;
+				position: relative;
+				display: block;
+				padding: .75em .1em .25em;
+				border: none;
+				border-radius: 0;
+				background-color: transparent;
+				font-size: 1.15em;
+				line-height: 1.25em;
+				color: #fff;
+				z-index: 10;
+				-webkit-appearance: none;
+			}
+				.input_field:focus {
+					outline: none;
+				}
+			.input_label {
+				width: 100%;
+				font-size: .85em;
+				line-height: 1.15em;
+				text-align: left;
+				color: #999;
+				display: inline-block;
+				position: relative;
+				overflow: hidden;
+				padding: 0;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			.input_label-isao::before {
+				content: "";
+				width: 100%;
+				height: 5px;
+				position: absolute;
+				top: 0;
+				background-color: #999;
+				-webkit-transform: scale3d(1, 0.4, 1);
+				transform: scale3d(1, 0.4, 1);
+				-webkit-transform-origin: 50% 100%;
+				transform-origin: 50% 100%;
+				-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+				transition: transform 0.3s, background-color 0.3s;
+				-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+				transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+			}
+			.input_label-isao::after {
+				content: attr(data-content);
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: .75em 0 .15em;
+				color: #3e95ab;
+				opacity: 0;
+				-webkit-transform: translate3d(0, 50%, 0);
+				transform: translate3d(0, 50%, 0);
+				-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+				transition: opacity 0.3s, transform 0.3s;
+				-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+				transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+				pointer-events: none;
+			}
+				.input_label-content {
+					width: 100%;
+					position: relative;
+					display: block;
+					padding: 1em 0;
+				}
+			.input_field:focus + .input_label-isao::before, .input-filled .input_label-isao::before {
+				background-color: #3e95ab;
+				-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+			}
+			.input_field:focus + .input_label-isao::after, .input-filled .input_label-isao::after {
+				opacity: 1;
+				-webkit-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+			}
+			.input_field:focus + .input_label {
+				pointer-events: none;
+			}
+			.input_field:focus + .input_label .input_label-content, .input-filled .input_label .input_label-content {
+				opacity: 0;
+				-webkit-transition: translate3d(0, 50%, 0);
+				transition: translate3d(0, 50%, 0);
+			}
 
 /* footer */
 footer {
@@ -580,9 +713,121 @@ footer {
 		}
 
 
+/* ----- */
+/* ----- */
+
+/* OFF FOR RESPONSIVE */
+
+/* ----- */
+/* ----- */
+
+#intro, #about-me, #portfolio, #clients, #experience, #contact {
+	display: none;
+}
+
+#intro {
+display: block;
+}
+#about-me {
+display: block;
+}
+#portfolio {
+display: block;
+}
+#clients {
+display: block;
+}
+#experience {
+display: block;
+}
+#contact {
+display: block;
+}
+
+
 /* ***** */
 /* RESPONSIVE */
 /* ***** */
+
+@media screen and (max-width: 920px) {
+	.wrapper-hp-image {
+		background-position: 14% 1.25%;
+	}
+
+	#portfolio-wrapper {
+		width: 720px;
+		height: 720px;
+	}
+		.portfolio-2, .portfolio-3 {
+			width: 350px;
+			height: 350px;
+		}
+		.portfolio-1, .portfolio-4 {
+			width: 200px;
+			height: 200px;
+		}
+			.portfolio-1 {
+				margin: 150px 0 0 150px;
+			}
+			.portfolio-2 {
+				margin-left: 370px;
+			}
+			.portfolio-3 {
+				margin-top: 370px;
+			}
+			.portfolio-4 {
+				margin: 370px 0 0 370px;
+			}
+			a#portfolio-btn {
+				margin: 590px 0 0 370px;
+			}
+				.portfolio-cs-content {
+					opacity: 0;
+				}
+}
+
+@media screen and (max-width: 840px) {
+	.service-icon {
+		padding: 20px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	#portfolio-wrapper {
+		width: 90%;
+		height: auto;
+		text-align: center;
+	}
+		.portfolio-container {
+			position: static;
+		}
+		.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4 {
+			width: calc(50% - 22px);
+			height: 220px;
+			display: inline-block;
+			margin: 0 10px 20px;
+		}
+		a#portfolio-btn {
+			margin: 0;
+			position: static;
+			display: inline-block;
+		}
+				.portfolio-cs-content {
+					opacity: 0;
+				}
+
+}
+
+@media screen and (max-width: 640px) {
+	.client-logo {
+		width: 22%;
+		margin: 1%;
+		padding: 2px;
+		display: inline-block;
+	}
+}
 
 @media screen and (max-width: 540px) {
 	#nav-button {
@@ -614,6 +859,16 @@ footer {
 				font-size: 3.25em;
 				line-height: 1.25em;
 			}
+}
+
+@media screen and (max-width: 425px) {
+	.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4 {
+		width: 100%;
+		height: 300px;
+		display: block;
+		margin: 0 0 20px;
+	}
+
 }
 
 @media screen and (max-width: 375px) {
