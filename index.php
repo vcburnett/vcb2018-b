@@ -16,6 +16,7 @@
 	<!-- stylesheets -->
 
 	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/instafeed.min.js"></script>
 </head>
 
@@ -23,7 +24,7 @@
 
 	<div id="nav-button">
 		<div class="bar bar-top"></div>
-		<a href="javascript:void(0);">
+		<a href="javascript:void(0);" id="btn-burger" class="btn-burger-close">
 			<div class="nav-button-bar" id="bar-1"></div>
 			<div class="nav-button-bar" id="bar-2"></div>
 			<div class="nav-button-bar" id="bar-3"></div>
@@ -39,11 +40,11 @@
 				</svg></a>
 		</div>
 		<nav>
-			<a href="javascript:void(0);">Home</a>
-			<a href="javascript:void(0);">About me</a>
-			<a href="javascript:void(0);">What I do</a>
-			<a href="javascript:void(0);">Portfolio</a>
-			<a href="#contact">Contact</a>
+			<a href="javascript:void(0);" class="scroll">Home</a>
+			<a href="javascript:void(0);" class="scroll">About me</a>
+			<a href="javascript:void(0);" class="scroll">What I do</a>
+			<a href="javascript:void(0);" class="scroll">Portfolio</a>
+			<a href="#contact" class="scroll">Contact</a>
 			<a href="javascript:void(0);" id="btn-lang">Version française</a>
 		</nav>
 	</div>
@@ -67,7 +68,7 @@
 					<p>I’m a <strong>digital art director</strong> working at Altimaº X Konversion. I’ve started working with marketing and advertising way back in 2005 and still love every second of it.</p>
 					<p class="marfusha-font">Go and explore!</p>
 					<p>Check out some of my favourite projects. Who knows, maybe one day we’ll work on something together!</p>
-					<a href="#contact" class="btn-1">Sey hello</a>
+					<a href="#contact" class="btn-1 scroll">Say hello</a>
 				</div>
 			</div>
 		</section>
@@ -80,7 +81,7 @@
 					<p>I started my career as a junior art director at Comunicata Comunicação, in Brazil. Since then, I moved into digital design and now am <strong>art director at Konversion</strong> (part of <strong>Accenture Interactive</strong>). As part of my day-to-day, I contribute to <strong>marketing strategies and creative processes</strong> to optimize our clients’ conversion funnels. My main focus though to create a seamless, unforgetable and - more importantly - useful <strong>consumer experience</strong>.</p>
 					<p>And my passion for marketing and creativity have now led me down the path of <strong>virtual and augmented realities</strong>. I’m still learning but soon I hope to be using these new techniques in improve CX in ways not yet known!</p>
 					<a href="assets/pdf/Victor-Burnett-CV.pdf" target="_blank" class="btn-2">Download my CV</a>
-					<a href="#contact" class="btn-1">Say hello</a>
+					<a href="#contact" class="btn-1 scroll">Say hello</a>
 				</div>
 				<div id="about-me-icon-wrapper">
 					<div class="service-icon">
@@ -142,7 +143,7 @@
 						<div class="freelance-pen">
 							<img src="assets/images/pen.png" alt="Victor Burnett Freelancing">
 						</div>
-						<a href="#contact" class="btn-3">Let's work together</a>
+						<a href="#contact" class="btn-3 scroll">Let's work together</a>
 					</div>
 			</div>
 			<div id="clients-wrapper">
@@ -201,10 +202,10 @@
 				<div id="exp-content-wrapper">
 					<p>I have had the luck to work in many different and interesting places. Sometimes client-side, but most of my career has been working at agencies. This gave me the opportunity to work with multiple clients in various niches and to explore different solutions to the different challenges present in the multitude of verticals.</p>
 					<p>My current job is at Konversion, which has currently joined the Accenture Interactive group. For sure, new and exciting projects are soon to come!</p>
-					<a href="javascript:void(0);" class="btn-2">View my full experience</a>
+					<a href="#experience-jobs" class="btn-2 scroll" id="btn-experience-open">View my full experience</a>
 				</div>
 
-				<div id="experience-jobs">
+				<div id="experience-jobs" class="experience-list-open">
 					<div class="job">
 						<div class="job-stain">
 							<img src="assets/images/stain-1.png" alt="Konversion ( part of Accenture Interactive )">
@@ -345,6 +346,7 @@
 	</footer>
 
 <!-- Scripts -->
+<script src="assets/js/scripts.js"></script>
 <script src="assets/js/classie.js"></script>
 <script>
 	(function() {
