@@ -9,17 +9,10 @@ $( document ).ready(function() {
 	var menuWrapper = $("#menu-wrapper");
 	var btnMM = $(".btn-mm");
 
-	var portThumb = $(".portfolio-thumb");
-
-	var portThumbW;
-
 	function updateElements() {
 
 		browserH = browserWindow.height();
 		browserW = browserWindow.width();
-
-		portThumbW = portThumb.width();
-		portThumb.height(portThumbW);
 
 	}
 
