@@ -48,71 +48,184 @@
 				
 				<div id="portfolio-pg-content">
 					<div class="portfolio-thumb-wrap">
-						<div class="portfolio-thumb" id="pt-1">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-2">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-3">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-4">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-5">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-6">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-7">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-8">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-9">
-
-						</div>
-						<div class="portfolio-thumb" id="pt-10">
-
-						</div>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-1">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-2">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-3">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-4">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-5">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-6">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-7">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-8">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-9">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-thumb" id="pt-10">
+							<div class="thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="thumb">
+								<img src="assets/images/_temp/thumb-example.png" alt="Lorem">
+							</div>
+						</a>
 					</div>
 					<div id="portfolio-other-wrap">
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
-						<div class="portfolio-other-thumb">
-
-						</div>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
+						<a href="case-study.php" class="portfolio-other-thumb">
+							<div class="other-thumb-content">
+								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Client">
+							</div>
+							<div class="other-thumb">
+								<img src="assets/images/_temp/other-thumb-example.png" alt="Lorem">
+							</div>
+						</a>
 					</div>
 				</div>
 
