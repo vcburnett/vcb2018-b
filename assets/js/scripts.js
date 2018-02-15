@@ -5,11 +5,21 @@ $( document ).ready(function() {
 	var browserW = browserWindow.width();
 
 	var btnBurger = $("#btn-burger");
+	var navButton = $("#nav-button");
+	var menuWrapper = $("#menu-wrapper");
+	var btnMM = $(".btn-mm");
+
+	var portThumb = $(".portfolio-thumb");
+
+	var portThumbW;
 
 	function updateElements() {
 
 		browserH = browserWindow.height();
 		browserW = browserWindow.width();
+
+		portThumbW = portThumb.width();
+		portThumb.height(portThumbW);
 
 	}
 
@@ -17,6 +27,26 @@ $( document ).ready(function() {
 	browserWindow.on("resize", function() {
 		updateElements();
 	}).trigger("resize");
+
+	btnBurger.on("click", function() {
+		if ( $(this).hasClass("btn-burger-close") ) {
+			$(this).removeClass("btn-burger-close");
+			menuWrapper.removeClass("menu-wrapper-on");
+			navButton.removeClass("nav-button-transparent");
+		} else {
+			$(this).addClass("btn-burger-close");
+			menuWrapper.addClass("menu-wrapper-on");
+			navButton.addClass("nav-button-transparent");
+		}
+	});
+	btnMM.on("click", function() {
+		btnBurger.removeClass("btn-burger-close");
+		menuWrapper.removeClass("menu-wrapper-on");
+	});
+
+	function scrollToAnchor() {
+
+	}
 
 	//Scroll links
 	$(".scroll").click( function(event) {

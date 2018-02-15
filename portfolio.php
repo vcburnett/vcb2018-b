@@ -49,7 +49,7 @@
 		</nav>
 	</div>
 
-	<div id="wrapper" class="wrapper-hp-image">
+	<div id="wrapper">
 		<div id="vcb-logo">
 			<div id="vcb-logo-wrapper">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 363.5 237.6" style="enable-background:new 0 0 363.5 237.6;" xml:space="preserve">
@@ -60,270 +60,45 @@
 			</div>
 		</div>
 
-		<section id="intro">
-			<div class="title title-left"><h2>Hello!</h2></div>
-			<div class="title title-right"><h2>Hello!</h2></div>
+		<section id="portfolio-pg-wrapper">
 			<div class="content-wrapper">
-				<div id="hero-content-wrapper">
-					<p>I’m a <strong>digital art director</strong> working at Altimaº X Konversion. I’ve started working with marketing and advertising way back in 2005 and still love every second of it.</p>
-					<p class="marfusha-font">Go and explore!</p>
-					<p>Check out some of my favourite projects. Who knows, maybe one day we’ll work on something together!</p>
-					<a href="#contact" class="btn-1 scroll">Say hello</a>
+
+				<div id="portfolio-pg-intro">
+					<p>Meatball ribeye andouille ham hock capicola alcatra pig pancetta cupim pastrami. Buffalo ham ball tip, shank pork hamburger t-bone. Short loin kielbasa pig chicken ribeye jerky. Brisket cupim tongue kielbasa. Jowl cupim tongue, andouille boudin kevin frankfurter filet mignon beef pork chop. Rump ball tip filet mignon frankfurter pork loin tail sirloin fatback brisket picanha swine venison.</p>
+					<a href="#contact" class="scroll btn-1">Say hello</a>
 				</div>
+				
+				<div id="portfolio-pg-content">
+					<div class="portfolio-thumb-wrap">
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+						<div class="portfolio-thumb">
+
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</section>
-
-		<section id="about-me">
-			<div class="title title-left"><h2>About me</h2></div>
-			<div class="title title-right"><h2>About me</h2></div>
-			<div class="content-wrapper">
-				<div id="about-me-text-wrapper">
-					<p>I started my career as a junior art director at Comunicata Comunicação, in Brazil. Since then, I moved into digital design and now am <strong>art director at Konversion</strong> (part of <strong>Accenture Interactive</strong>). As part of my day-to-day, I contribute to <strong>marketing strategies and creative processes</strong> to optimize our clients’ conversion funnels. My main focus though to create a seamless, unforgetable and - more importantly - useful <strong>consumer experience</strong>.</p>
-					<p>And my passion for marketing and creativity have now led me down the path of <strong>virtual and augmented realities</strong>. I’m still learning but soon I hope to be using these new techniques in improve CX in ways not yet known!</p>
-					<a href="assets/pdf/Victor-Burnett-CV.pdf" target="_blank" class="btn-2">Download my CV</a>
-					<a href="#contact" class="btn-1 scroll">Say hello</a>
-				</div>
-				<div id="about-me-icon-wrapper">
-					<div class="service-icon">
-						<img src="assets/images/icon-branding.svg" alt="">
-					</div>
-					<div class="service-icon">
-						<img src="assets/images/icon-digital-design.svg" alt="">
-					</div>
-					<div class="service-icon">
-						<img src="assets/images/icon-strategy.svg" alt="">
-					</div>
-					<div class="service-icon">
-						<img src="assets/images/icon-lamp.svg" alt="">
-					</div>
-					<div class="service-icon">
-						<img src="assets/images/icon-data-analysis.svg" alt="">
-					</div>
-					<div class="service-icon">
-						<img src="assets/images/icon-photography.svg" alt="">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="portfolio">
-			<div class="title title-left"><h2>Port<br>fo<br>lio</h2></div>
-			<div class="title title-right"><h2>Port<br>fo<br>lio</h2></div>
-			<div class="content-wrapper">	
-				<div id="portfolio-wrapper">
-					<a href="case-study.php" class="portfolio-container portfolio-1" style="background-image: url('assets/images/_temp/port-img-1.png');">
-						<div class="portfolio-cs-content">
-							<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion ( part of Accenture Interactive )">
-						</div>
-					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-2" style="background-image: url('assets/images/_temp/port-img-2.png');">
-						<div class="portfolio-cs-content">
-							<img src="assets/images/experience-logos/exp-logo-CIE.png" alt="Caesars Interactive Entertainment">
-						</div>
-					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-3" style="background-image: url('assets/images/_temp/port-img-3.png');">
-						<div class="portfolio-cs-content">
-							<img src="assets/images/experience-logos/exp-logo-playboy.png" alt="Playboy">
-						</div>
-					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-4" style="background-image: url('assets/images/_temp/port-img-4.png');">
-						<div class="portfolio-cs-content">
-							<img src="assets/images/experience-logos/exp-logo-lavasoft.png" alt="Lavasoft">
-						</div>
-					</a>
-					<a href="portfolio.php" class="btn-4" id="portfolio-btn">View my portfolio</a>
-				</div>
-			</div>
-		</section>
-
-		<section id="clients">
-			<div class="clients-border client-border-top">
-					<div class="freelance-box">
-						<h4>Available for freelancing</h4>
-						<div class="freelance-pen">
-							<img src="assets/images/pen.png" alt="Victor Burnett Freelancing">
-						</div>
-						<a href="#contact" class="btn-3 scroll">Let's work together</a>
-					</div>
-			</div>
-			<div id="clients-wrapper">
-				<div class="content-wrapper">
-					<div id="clients-content">
-						<h4>Brands I've worked with</h4>
-						<div id="clients-logos">
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-playboy.png" alt="Playboy">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-pits-bbq.png" alt="Pit's BBQ">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-harley-davidson.png" alt="Harley Davidson">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-shi.png" alt="Sustainable Harvest International">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-attitude.png" alt="Attitude">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-belairdirect.png" alt="belairdirect">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-intact.png" alt="Intact">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-protectron.png" alt="Protectron">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-bath-fitter.png" alt="Bath Fitter">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-bdc.png" alt="BDC">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-cavalia.png" alt="Cavalia">
-							</div>
-							<div class="client-logo">
-								<img src="assets/images/client-logos/logo-client-kombi.png" alt="Kombi">
-							</div>
-						</div>
-						<p>and many others!</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="experience">
-			<div class="content-wrapper">
-				<div id="exp-title-wrapper">
-					<h2>Ex<br>per<br>ien<br>ce</h2>
-				</div>
-				<div id="exp-content-wrapper">
-					<p>I have had the luck to work in many different and interesting places. Sometimes client-side, but most of my career has been working at agencies. This gave me the opportunity to work with multiple clients in various niches and to explore different solutions to the different challenges present in the multitude of verticals.</p>
-					<p>My current job is at Konversion, which has currently joined the Accenture Interactive group. For sure, new and exciting projects are soon to come!</p>
-					<a href="#experience-jobs" class="btn-2 scroll" id="btn-experience-open">View my full experience</a>
-				</div>
-
-				<div id="experience-jobs" class="experience-list-open">
-					<div class="job">
-						<div class="job-stain">
-							<div class="experience-logo">
-								<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion ( part of Accenture Interactive )">
-							</div>
-							<div class="the-stain">
-								<img src="assets/images/stain-1.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Konversion</h3>
-							<p class="job-subtext">( part of <strong>Accenture Interactive</strong> )</p>
-							<p>I currently work here as art director. As such, I actively contribute to marketing strategies, creative meetings and client presentations. In addition, I work on bringing the conversion process to life and to continuously optimizing our clients’ online presence, trhough analysis of data and experience research.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<div class="experience-logo">
-								<img src="assets/images/experience-logos/exp-logo-CIE.png" alt="Caesars Interactive Entertainment ( CIE )">
-							</div>
-							<div class="the-stain">
-								<img src="assets/images/stain-2.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Caesars Interactive Entertainment</h3>
-							<p class="job-subtext">( WSOP / Caesar’s Casino / Harrah’s Casino )</p>
-							<p>Another awesome place I worked at. I was mainly working with the WSOP, but occasionally did projects for Caesar’s and Harrah’s Casinos. Most of the work was digital, but I worked on a lot of on-location assets.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<div class="experience-logo">
-								<img src="assets/images/experience-logos/exp-logo-playboy.png" alt="Playboy">
-							</div>
-							<div class="the-stain">
-								<img src="assets/images/stain-3.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Playboy.com</h3>
-							<p>Most of the people I know dreamed of working here, and I’m happy to have had the opportunity. I worked in the in-house marketing department creating ads, editorials and strategies for companies on advertising on Playboy.com. It worked like an agency... but a little hotter!</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<div class="experience-logo">
-								<img src="assets/images/experience-logos/exp-logo-lavasoft.png" alt="Lulu Software / Lavasoft">
-							</div>
-							<div class="the-stain">
-								<img src="assets/images/stain-4.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Lulu Software / Lavasoft</h3>
-							<p>My first time working client-side. For the first time I have been involved in marketing strategy and viewing the project from their point-of-view. This helped me, in my future jobs, to look at the projects in a different way.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<!-- <div class="experience-logo">
-								<img src="assets/images/_temp/exp-netavance.png" alt="NetAvance">
-							</div> -->
-							<div class="the-stain">
-								<img src="assets/images/stain-5.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>NetAvance</h3>
-							<p>NetAvance gave me my first job in Canada. During my time there, I helped them grow from an IT company to a full service web design boutique. I also had my first contact with the Canadian market and the brands that were new to me.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<!-- <div class="experience-logo">
-								<img src="assets/images/_temp/exp-peppr.png" alt="Peppr. Comunicação">
-							</div> -->
-							<div class="the-stain">
-								<img src="assets/images/stain-6.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Peppr.</h3>
-							<p>At Peppr I had the chance of leading small design team as well as a team of developers as digital creative director. I also worked very closely to the UX director, having my first contact with user-oriented design.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<!-- <div class="experience-logo">
-								<img src="assets/images/_temp/exp-tv1.png" alt="TV1.com">
-							</div> -->
-							<div class="the-stain">
-								<img src="assets/images/stain-7.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>TV1.com</h3>
-							<p>This was the start of my digital path. At TV1, .com department, I translated the knowledge I had of offline design to digital, while also adventuring in motion design and writing my first few lines of code. The possibilities of what to do in digital made me fall in love with the digital fields.</p>
-						</div>
-					</div>
-					<div class="job">
-						<div class="job-stain">
-							<!-- <div class="experience-logo">
-								<img src="assets/images/_temp/exp-comunicata.png" alt="Comunicata Comunicação">
-							</div> -->
-							<div class="the-stain">
-								<img src="assets/images/stain-8.png" alt="My experience stain">
-							</div>
-						</div>
-						<div class="job-content">
-							<h3>Comunicata Comunicação</h3>
-							<p>My first job in a creative team, as junior art director. This is where I really fell in love with advertising and marketing and decided that was the career I wanted. It also taught me valuable lessons about agency life: tough but awesome.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
 	</div>
 
 	<section id="contact">
