@@ -43,6 +43,7 @@
 
 				<div id="portfolio-pg-intro">
 					<h1>Name of the client lorem ipsum</h1>
+					<p class="date">September 2017</p>
 					<p>Meatball ribeye andouille ham hock capicola alcatra pig pancetta cupim pastrami. Buffalo ham ball tip, shank pork hamburger t-bone. Short loin kielbasa pig chicken ribeye jerky. Brisket cupim tongue kielbasa. Jowl cupim tongue, andouille boudin kevin frankfurter.</p>
 				</div>
 				
@@ -55,9 +56,58 @@
 						<p>Bacon turducken kevin ground round tongue. Beef ribs shoulder pancetta, burgdoggen shank tri-tip filet mignon. Ham brisket pig pancetta spare ribs landjaeger. Doner frankfurter leberkas kielbasa chicken picanha brisket. Pork chop chicken andouille chuck strip steak capicola shank pastrami short loin. Salami shoulder leberkas short loin.</p>
 						<p>Bacon turducken kevin ground round tongue. Beef ribs shoulder pancetta, burgdoggen shank tri-tip filet mignon. Ham brisket pig pancetta spare ribs landjaeger. Doner frankfurter leberkas kielbasa chicken picanha brisket. Pork chop chicken andouille chuck strip steak capicola shank pastrami short loin. Salami shoulder leberkas short loin.</p>
 					</div>
+					<div class="cs-services">
+						<div class="a-service">
+							<img src="assets/images/icon-branding.svg" alt="Branding">
+						</div>
+						<div class="a-service">
+							<img src="assets/images/icon-strategy.svg" alt="Strategy">
+						</div>
+						<div class="a-service">
+							<img src="assets/images/icon-digital-design.svg" alt="Design">
+						</div>
+						<div class="a-service">
+							<img src="assets/images/icon-photography.svg" alt="Photography">
+						</div>
+					</div>
 				</div>
 
 			</div>
+		</section>
+
+		<section id="related-posts">
+			<a href="case-study.php" class="a-rel-post">
+				<div class="rel-post-content">
+					<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion">
+				</div>
+				<div class="rel-post-thumb">
+					<img src="assets/images/_temp/port-img-1.png" alt="Client">
+				</div>
+			</a>
+			<a href="case-study.php" class="a-rel-post">
+				<div class="rel-post-content">
+					<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion">
+				</div>
+				<div class="rel-post-thumb">
+					<img src="assets/images/_temp/port-img-1.png" alt="Client">
+				</div>
+			</a>
+			<a href="case-study.php" class="a-rel-post">
+				<div class="rel-post-content">
+					<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion">
+				</div>
+				<div class="rel-post-thumb">
+					<img src="assets/images/_temp/port-img-1.png" alt="Client">
+				</div>
+			</a>
+			<a href="case-study.php" class="a-rel-post">
+				<div class="rel-post-content">
+					<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion">
+				</div>
+				<div class="rel-post-thumb">
+					<img src="assets/images/_temp/port-img-1.png" alt="Client">
+				</div>
+			</a>
 		</section>
 
 	</div>

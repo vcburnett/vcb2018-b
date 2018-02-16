@@ -138,10 +138,10 @@ a.btn-4 {
 h1 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	line-height: 1em;
 	text-transform: uppercase;
-	margin-bottom: 12px;
+	margin-bottom: 6px;
 }
 h2 {
 	font-family: 'Roboto Slab', serif;
@@ -411,7 +411,7 @@ section {
 	}
 #portfolio-wrapper {
 	width: 860px;
-	height: 860px;
+	height: 880px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -421,14 +421,14 @@ section {
 		box-shadow: 0 5px 12px rgba(0,0,0,.14);
 		background: #fff no-repeat center center;
 		background-size: cover;
+		border-radius: 4px;
+		overflow: hidden;
 	}
 	.portfolio-2, .portfolio-3 {
 		width: 420px;
-		height: 420px;
 	}
 	.portfolio-1, .portfolio-4 {
 		width: 240px;
-		height: 240px;
 	}
 		.portfolio-1 {
 			margin: 180px 0 0 180px;
@@ -447,13 +447,19 @@ section {
 			text-align: center;
 			padding: 13px 0;
 			margin: 700px 0 0 440px;
+			position: relative;
 		}
+			.portfolio-cs-thumb {
+				width: 100%;
+			}
 			.portfolio-cs-content {
 				width: 100%;
 				height: 100%;
+				position: absolute;
 				opacity: 0;
 				background-color: rgba(255,255,255,.84);
 				text-align: center;
+				z-index: 10;
 			}
 				.portfolio-cs-content:after {
 					content: "View project";
@@ -633,6 +639,18 @@ section#experience {
 }
 
 /* Internal Pages */
+
+#internal-wrapper {
+	width: 100%;
+	display: block;
+	margin: 2em auto 4em;
+}
+	.internal-text {
+		width: 50%;
+		margin: 0 auto;
+		padding: 3em 0;
+	}
+
 /* Portfolio */
 
 #portfolio #vcb-logo-wrapper {
@@ -663,6 +681,8 @@ section#experience {
 			background-color: #ddd;
 			position: absolute;
 			box-shadow: 0 5px 12px rgba(0,0,0,.14);
+			overflow: hidden;
+			border-radius: 4px;
 		}
 			#pt-1 {
 				width: 240px;
@@ -747,6 +767,8 @@ section#experience {
 			display: inline-block;
 			position: relative;
 			box-shadow: 0 3px 8px rgba(0,0,0,.14);
+			overflow: hidden;
+			border-radius: 4px;
 		}
 			.other-thumb-content, .thumb-content {
 				width: 100%;
@@ -766,19 +788,72 @@ section#experience {
 				opacity: 1;
 			}
 
-/* Internal pages */
-#internal-wrapper {
-	width: 100%;
-	height: 650px;
-	display: block;
-	margin: 2em auto 10em;
-	background-color: red;
+/* Case Study */
+.date {
+	font-size: .75em;
+	line-height: 1em;
+	font-style: italic;
+	color: #999;
+	margin-bottom: 8px;
 }
-	.internal-text {
-		width: 50%;
-		margin: 0 auto;
-		padding: 3em 0;
+
+.cs-services {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+	.cs-services:before {
+		content: "";
+		display: block;
+		background-color: #e6e6e6;
+		height: 1px;
+		max-width: 100px;
+		margin: 3em auto 2em;
 	}
+	.a-service {
+		width: 30%;
+		max-width: 88px;
+		background-color: #fff;
+		border-radius: 50%;
+		overflow: hidden;
+		padding: 14px;
+		margin: 1%;
+		display: inline-block;
+	}
+
+#related-posts {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-bottom: 10em;
+}
+	.a-rel-post {
+		width: 160px;
+		height: 160px;
+		margin: 3px 4px;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		border-radius: 4px;
+	}
+		.a-rel-post:hover .rel-post-content {
+			opacity: 1;
+		}
+		.rel-post-content {
+			width: 100%;
+			display: block;
+			padding: 25px;
+			position: absolute;
+			z-index: 10;
+			background-color: rgba(255,255,255,.85);
+			opacity: 0;
+		}
+		.rel-post-thumb {
+			width: 100%;
+			display: block;
+			position: absolute;
+			z-index: 1;
+		}
 
 /* Contact */
 #contact {
@@ -972,7 +1047,7 @@ footer {
 
 	#portfolio-wrapper {
 		width: 720px;
-		height: 720px;
+		height: 740px;
 	}
 		.portfolio-2, .portfolio-3 {
 			width: 350px;
@@ -1017,7 +1092,10 @@ footer {
 		padding-top: 10em;
 	}
 		.portfolio-container {
-			position: static;
+			width: calc(50% - 22px);
+			display: inline-block;
+			margin: 0 10px 20px;
+			position: relative;
 		}
 		.portfolio-1, .portfolio-2, .portfolio-3, .portfolio-4 {
 			width: calc(50% - 22px);
@@ -1033,6 +1111,9 @@ footer {
 				.portfolio-cs-content {
 					opacity: 0;
 				}
+				.portfolio-cs-thumb {
+
+				}
 		#portfolio-hp .title-left {
 			top: 80px;
 			left: -41px;
@@ -1047,7 +1128,7 @@ footer {
 			}
 		.portfolio-2 .portfolio-cs-content, .portfolio-3 .portfolio-cs-content, .portfolio-1 .portfolio-cs-content, .portfolio-4 .portfolio-cs-content {
 			opacity: 1;
-			padding: 17% 35%;
+			padding: 22% 25% 28%;
 			background-color: rgba(255,255,255,.6);
 		}
 			.portfolio-2 .portfolio-cs-content:after, .portfolio-3 .portfolio-cs-content:after, .portfolio-1 .portfolio-cs-content:after, .portfolio-4 .portfolio-cs-content:after {
@@ -1133,10 +1214,6 @@ footer {
 			float: none;
 			clear: none;
 			vertical-align: top;
-		}
-
-		.portfolio-2 .portfolio-cs-content, .portfolio-3 .portfolio-cs-content, .portfolio-1 .portfolio-cs-content, .portfolio-4 .portfolio-cs-content {
-			padding: 24% 35%;
 		}
 
 	#contact {
@@ -1231,10 +1308,6 @@ footer {
 			padding: 20px;
 		}
 
-		.portfolio-2 .portfolio-cs-content, .portfolio-3 .portfolio-cs-content, .portfolio-1 .portfolio-cs-content, .portfolio-4 .portfolio-cs-content {
-			padding: 31% 35%;
-		}
-
 	#exp-title-wrapper {
 		width: 120px;
 	}
@@ -1297,10 +1370,6 @@ footer {
 		display: block;
 		margin: 0 0 20px;
 	}
-
-		.portfolio-2 .portfolio-cs-content, .portfolio-3 .portfolio-cs-content, .portfolio-1 .portfolio-cs-content, .portfolio-4 .portfolio-cs-content {
-			padding: 24% 35%;
-		}
 
 	.service-icon {
 		width: 30%;
@@ -1382,8 +1451,4 @@ footer {
 			.job-stain .experience-logo, .job:nth-child(even) .job-stain .experience-logo {
 				padding: 10px !important;
 			}
-
-		.portfolio-2 .portfolio-cs-content, .portfolio-3 .portfolio-cs-content, .portfolio-1 .portfolio-cs-content, .portfolio-4 .portfolio-cs-content {
-			padding: 34% 35%;
-		}
 }

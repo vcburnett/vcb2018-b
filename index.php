@@ -86,24 +86,36 @@
 			<div class="title title-right"><h2>Port<br>fo<br>lio</h2></div>
 			<div class="content-wrapper">	
 				<div id="portfolio-wrapper">
-					<a href="case-study.php" class="portfolio-container portfolio-1" style="background-image: url('assets/images/_temp/port-img-1.png');">
+					<a href="case-study.php" class="portfolio-container portfolio-1">
 						<div class="portfolio-cs-content">
 							<img src="assets/images/experience-logos/exp-logo-konversion.png" alt="Konversion ( part of Accenture Interactive )">
 						</div>
+						<div class="portfolio-cs-thumb">
+							<img src="assets/images/_temp/port-img-1.png" alt="Client">
+						</div>
 					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-2" style="background-image: url('assets/images/_temp/port-img-2.png');">
+					<a href="case-study.php" class="portfolio-container portfolio-2">
 						<div class="portfolio-cs-content">
 							<img src="assets/images/experience-logos/exp-logo-CIE.png" alt="Caesars Interactive Entertainment">
 						</div>
+						<div class="portfolio-cs-thumb">
+							<img src="assets/images/_temp/port-img-2.png" alt="Client">
+						</div>
 					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-3" style="background-image: url('assets/images/_temp/port-img-3.png');">
+					<a href="case-study.php" class="portfolio-container portfolio-3">
 						<div class="portfolio-cs-content">
 							<img src="assets/images/experience-logos/exp-logo-playboy.png" alt="Playboy">
 						</div>
+						<div class="portfolio-cs-thumb">
+							<img src="assets/images/_temp/port-img-3.png" alt="Client">
+						</div>
 					</a>
-					<a href="case-study.php" class="portfolio-container portfolio-4" style="background-image: url('assets/images/_temp/port-img-4.png');">
+					<a href="case-study.php" class="portfolio-container portfolio-4">
 						<div class="portfolio-cs-content">
 							<img src="assets/images/experience-logos/exp-logo-lavasoft.png" alt="Lavasoft">
+						</div>
+						<div class="portfolio-cs-thumb">
+							<img src="assets/images/_temp/port-img-4.png" alt="Client">
 						</div>
 					</a>
 					<a href="portfolio.php" class="btn-4" id="portfolio-btn">View my portfolio</a>
