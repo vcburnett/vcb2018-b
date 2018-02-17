@@ -36,8 +36,8 @@
 		</div>
 
 		<section id="portfolio-pg-wrapper">
-			<div class="title title-left"><h2>Port<br>fo<br>lio</h2></div>
-			<div class="title title-right"><h2>Port<br>fo<br>lio</h2></div>
+			<div class="title title-left"><h2>Main Category</h2></div>
+			<div class="title title-right"><h2>Main Category</h2></div>
 			
 			<div class="content-wrapper">
 
@@ -48,6 +48,9 @@
 				</div>
 				
 				<div id="internal-wrapper">
+					<div class="image-1-col">
+						<img src="assets/images/_temp/img-example.png">
+					</div>
 					<div class="internal-text">
 						<p>Bacon turducken kevin ground round tongue. Beef ribs shoulder pancetta, burgdoggen shank tri-tip filet mignon. Ham brisket pig pancetta spare ribs landjaeger. Doner frankfurter leberkas kielbasa chicken picanha brisket. Pork chop chicken andouille chuck strip steak capicola shank pastrami short loin. Salami shoulder leberkas short loin.</p>
 					</div>

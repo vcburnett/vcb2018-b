@@ -19,9 +19,10 @@
 	<nav>
 		<a href="index.php#intro" class="scroll btn-mm">Home</a>
 		<a href="index.php#intro" class="scroll btn-mm">About me</a>
-		<a href="index.php#portfolio-hp" class="scroll btn-mm">Portfolio</a>
+		<a href="portfolio.php" class="scroll btn-mm">Portfolio</a>
 		<a href="index.php#experience" class="scroll btn-mm">Experience</a>
 		<a href="index.php#contact" class="scroll btn-mm">Contact</a>
+		<a href="http://vcburnett.com/blog/">Blog</a>
 		<a href="javascript:void(0);" id="btn-lang">Version française</a>
 	</nav>
 </div>

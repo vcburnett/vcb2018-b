@@ -333,13 +333,10 @@ section {
 		transform: rotate(90deg);
 		top: 160px;
 	}
-		#portfolio-hp .title, #portfolio-pg-wrapper .title {
+		#portfolio-hp .title {
 			top: 0;
 			transform: rotate(0deg);
 		}
-			#portfolio-pg-wrapper .title {
-				top: 140px;
-			}
 		.title-left {
 			left: -118px;
 		}
@@ -656,6 +653,24 @@ section#experience {
 #portfolio #vcb-logo-wrapper {
 	fill: rgba(220,220,220,1);
 }
+	#portfolio-pg-wrapper .title {
+		font-size: .75em;
+		top: 367px;
+	}
+		#portfolio-pg-wrapper .title-left {
+			left: -314px;
+		}
+		#portfolio-pg-wrapper .title-right {
+			right: -279px;
+		}
+		#portfolio-pg-wrapper .title-left-portfolio {
+			left: -215px;
+			top: 284px;
+		}
+		#portfolio-pg-wrapper .title-right-portfolio {
+			right: -181px;
+			top: 284px;
+		}
 
 #portfolio-pg-intro {
 	width: 37.5%;
@@ -797,6 +812,11 @@ section#experience {
 	margin-bottom: 8px;
 }
 
+.image-1-col {
+	width: 100%;
+
+}
+
 .cs-services {
 	width: 100%;
 	display: block;
@@ -828,8 +848,8 @@ section#experience {
 	margin-bottom: 10em;
 }
 	.a-rel-post {
-		width: 160px;
-		height: 160px;
+		width: 148px;
+		height: 148px;
 		margin: 3px 4px;
 		display: inline-block;
 		position: relative;
@@ -1075,6 +1095,72 @@ footer {
 				.portfolio-cs-content {
 					opacity: 0;
 				}
+
+	.portfolio-thumb-wrap {
+		width: 740px;
+		height: 1950px;
+	}
+			#pt-1 {
+				width: 240px;
+				height: 240px;
+				top: 120px;
+				left: 120px;
+			}
+			#pt-2 {
+				width: 360px;
+				height: 360px;
+				top: 0;
+				left: 380px;
+			}
+			#pt-3 {
+				width: 360px;
+				height: 360px;
+				top: 380px;
+				left: 0;
+			}
+			#pt-4 {
+				width: 240px;
+				height: 240px;
+				top: 380px;
+				left: 380px;
+			}
+			#pt-5 {
+				width: 240px;
+				height: 240px;
+				top: 920px;
+				left: 120px;
+			}
+			#pt-6 {
+				width: 360px;
+				height: 360px;
+				top: 640px;
+				left: 380px;
+			}
+			#pt-7 {
+				width: 360px;
+				height: 360px;
+				top: 1180px;
+				left: 0;
+			}
+			#pt-8 {
+				width: 240px;
+				height: 240px;
+				top: 1300px;
+				left: 380px;
+			}
+			#pt-9 {
+				width: 240px;
+				height: 240px;
+				top: 1560px;
+				left: 120px;
+			}
+			#pt-10 {
+				width: 360px;
+				height: 360px;
+				top: 1560px;
+				left: 380px;
+			}
+
 }
 
 @media screen and (max-width: 840px) {
@@ -1135,6 +1221,29 @@ footer {
 				font-size: .7em;
 			}
 
+	a.portfolio-other-thumb {
+		width: 22%;
+	}
+		.other-thumb-content {
+			opacity: 1;
+			background-color: rgba(255,255,255,.65);
+		}
+
+	.portfolio-thumb-wrap {
+		width: 100%;
+		height: auto;
+	}
+		.portfolio-thumb {
+			position: relative;
+		}
+			#pt-1, #pt-2, #pt-3, #pt-4, #pt-5, #pt-6, #pt-7, #pt-8, #pt-9, #pt-10 {
+				width: 47%;
+				height: auto;
+				top: 0;
+				left: 0;
+				margin: 1%;
+			}
+
 	.service-icon {
 		padding: 12px;
 	}
@@ -1158,6 +1267,10 @@ footer {
 		width: 40%;
 		margin: 0 1% 4%;
 		padding: 18px;
+	}
+
+	.internal-text {
+		width: 86%;
 	}
 
 }
@@ -1321,6 +1434,10 @@ footer {
 		margin-left: 20px;
 		padding-top: 6em;
 	}
+
+	a.portfolio-other-thumb {
+		width: 30%;
+	}
 }
 
 @media screen and (max-width: 425px) {
@@ -1408,6 +1525,40 @@ footer {
 		line-height: 1.25em;
 	}
 
+	#portfolio-pg-wrapper .title {
+		font-size: .4em;
+		top: 276px;
+	}
+		#portfolio-pg-wrapper .title-left {
+			left: -158px;
+		}
+		#portfolio-pg-wrapper .title-right {
+			right: -158px;
+		}
+		#portfolio-pg-wrapper .title-left-portfolio {
+			left: -105px;
+			top: 230px;
+		}
+		#portfolio-pg-wrapper .title-right-portfolio {
+			right: -106px;
+			top: 230px;
+		}
+
+	.a-service {
+		width: 22%;
+	}
+
+	#pt-1, #pt-2, #pt-3, #pt-4, #pt-5, #pt-6, #pt-7, #pt-8, #pt-9, #pt-10 {
+		width: 100%;
+		height: auto;
+		top: 0;
+		left: 0;
+		margin: 1% 0;
+	}
+
+	a.portfolio-other-thumb {
+		width: 47%;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -1451,4 +1602,11 @@ footer {
 			.job-stain .experience-logo, .job:nth-child(even) .job-stain .experience-logo {
 				padding: 10px !important;
 			}
+
+	.a-rel-post {
+		width: 140px;
+		height: 140px;
+		margin: 3px 4px;
+	}
+
 }

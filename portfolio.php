@@ -36,14 +36,13 @@
 		</div>
 
 		<section id="portfolio-pg-wrapper">
-			<div class="title title-left"><h2>Port<br>fo<br>lio</h2></div>
-			<div class="title title-right"><h2>Port<br>fo<br>lio</h2></div>
+			<div class="title title-left-portfolio"><h2>Portfolio</h2></div>
+			<div class="title title-right-portfolio"><h2>Portfolio</h2></div>
 			
 			<div class="content-wrapper">
 
 				<div id="portfolio-pg-intro">
-					<p>Meatball ribeye andouille ham hock capicola alcatra pig pancetta cupim pastrami. Buffalo ham ball tip, shank pork hamburger t-bone. Short loin kielbasa pig chicken ribeye jerky. Brisket cupim tongue kielbasa. Jowl cupim tongue, andouille boudin kevin frankfurter filet mignon beef pork chop. Rump ball tip filet mignon frankfurter pork loin tail sirloin fatback brisket picanha swine venison.</p>
-					<a href="#contact" class="scroll btn-1">Say hello</a>
+					<p>Welcome to my portfolio. Here you'll find a selection of my work.</p>
 				</div>
 				
 				<div id="portfolio-pg-content">
